@@ -1,0 +1,13 @@
+{
+    "name": "simple-feature-section-master",
+    "version": "1.0.0",
+    "description": "![Thumbnail for the Simple Feature Section coding challenge](./thumbnail.jpg)",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+    },
+    "keywords": [],
+    "author": "Fadil Prayadika",
+    "license": "ISC",
+    "type": "commonjs"
+}
