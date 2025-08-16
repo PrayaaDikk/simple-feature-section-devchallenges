@@ -59,20 +59,16 @@
             h6 {
                 font-size: 0.75rem;
             }
+
+            .background {
+                background-image: url("./resources/Background_image.svg?v=1.0.0");
+            }
         </style>
     </head>
     <body>
-        <section class="relative bg-black-900 min-h-[100dvh] overflow-hidden">
-            <div class="absolute top-0 left-0 right-0">
-                <img
-                    src="./resources/Background_image.svg?v=1.0.0"
-                    alt="background-image"
-                    width="1280"
-                    height="1080"
-                    class="h-full select-none"
-                    fetchpriority="high"
-                />
-            </div>
+        <section
+            class="relative bg-black-900 min-h-[100dvh] overflow-hidden background"
+        >
             <main class="relative z-10 p-8">
                 <div
                     class="text-center max-w-2xl mx-auto space-y-2 mb-12 md:max-w-md"
